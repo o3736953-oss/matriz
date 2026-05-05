@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matriz Educativa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #cbd5e1;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 15px;
+      padding: 25px;
+      transition: 0.3s;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: #334155;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Matriz de Aprendizaje Virtual</h1>
+  <p>Accede rápidamente a tus plataformas educativas</p>
+
+  <div class="grid">
+    <a class="card" href="https://web.whatsapp.com" target="_blank">WhatsApp</a>
+    <a class="card" href="https://classroom.google.com" target="_blank">Google Classroom</a>
+    <a class="card" href="https://meet.google.com" target="_blank">Google Meet</a>
+    <a class="card" href="https://drive.google.com" target="_blank">Google Drive</a>
+    <a class="card" href="https://mail.google.com" target="_blank">Gmail</a>
+    <a class="card" href="https://www.youtube.com" target="_blank">YouTube Educativo</a>
+  </div>
+
+</body>
+</html>
